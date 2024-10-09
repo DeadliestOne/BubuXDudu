@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from BubuXDudu import LOGGER, YouTube, app
-from BubuXDudu.misc import db
-from BubuXDudu.utils.database import (
+from BubuxDudu import LOGGER, YouTube, app
+from BubuxDudu.misc import db
+from BubuxDudu.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from BubuXDudu.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from BubuXDudu.utils.exceptions import AssistantErr
-from BubuXDudu.utils.formatters import check_duration, seconds_to_min, speed_converter
-from BubuXDudu.utils.inline.play import stream_markup
-from BubuXDudu.utils.stream.autoclear import auto_clean
-from BubuXDudu.utils.thumbnails import get_thumb
+from BubuxDudu.utils.exceptions import AssistantErr
+from BubuxDudu.utils.formatters import check_duration, seconds_to_min, speed_converter
+from BubuxDudu.utils.inline.play import stream_markup
+from BubuxDudu.utils.stream.autoclear import auto_clean
+from BubuxDudu.utils.thumbnails import get_thumb
 from strings import get_string
 
 autoend = {}
